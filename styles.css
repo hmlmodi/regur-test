@@ -1,0 +1,39 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: url("./background.svg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header {
+    font-size: 64px;
+}
+
+form {
+    width: 30%;
+    height: 200px;
+    margin: 150px auto;
+}
+
+form input {
+    background-color: #ffffff46 !important;
+}
+
+form button {
+    text-align: center;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.hide-form {
+    display: none;
+}
